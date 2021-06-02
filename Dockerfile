@@ -7,4 +7,4 @@ RUN cd /software/vasp/vasp.5.4.4.pl2/ \
     && make gpu \
     && rm -rf src/ build/ arch/
 
-ENV PATH=/software/vasp/vasp.5.4.4/bin:${PATH}
+ENV PATH=/software/vasp/vasp.5.4.4.pl2/bin:${PATH}
